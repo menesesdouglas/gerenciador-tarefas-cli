@@ -18,9 +18,9 @@
 
 | # | Task | Módulo | Status |
 |---|------|--------|--------|
-| 1.1 | Criar estrutura de pastas do projeto e ambiente virtual (Python 3.11+) | — | [ ] |
-| 1.2 | Implementar models.py: estrutura da tarefa (id, título, descrição opcional, data de criação automática, status pendente/concluída) | models.py | [ ] |
-| 1.3 | Implementar storage.py: leitura e gravação de tarefas em arquivo JSON com pathlib | storage.py | [ ] |
+| 1.1 | Criar estrutura de pastas do projeto e ambiente virtual (Python 3.11+) | — | [x] |
+| 1.2 | Implementar models.py: estrutura da tarefa (id, título, descrição opcional, data de criação automática, status pendente/concluída) | models.py | [x] |
+| 1.3 | Implementar storage.py: leitura e gravação de tarefas em arquivo JSON com pathlib | storage.py | [x] |
 | 1.4 | Implementar persistência automática (salvar JSON a cada alteração de estado CRUD) | storage.py | [ ] |
 | 1.5 | Testes unitários com pytest para models.py e storage.py | tests/ | [ ] |
 
