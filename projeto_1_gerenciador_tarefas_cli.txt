@@ -1,0 +1,59 @@
+================================================================================
+PROJETO 1 - GERENCIADOR DE TAREFAS LOCAL (CLI)
+================================================================================
+
+1. NOME DO PROJETO
+Gerenciador de Tarefas Local (CLI)
+
+2. NÍVEL DE DIFICULDADE
+Júnior I
+
+3. LINGUAGEM / STACK
+- Python (versão 3.11 ou superior)
+- Sem banco de dados
+- Sem API (aplicação de linha de comando)
+- Armazenamento local via arquivo JSON
+
+4. OBJETIVO
+Desenvolver uma aplicação de console (Command Line Interface) que permita ao
+usuário gerenciar uma lista de tarefas pessoais. O usuário deverá ser capaz de
+adicionar novas tarefas, listar todas as tarefas cadastradas, marcar uma tarefa
+como concluída e excluir tarefas existentes. Os dados devem ser persistidos em
+um arquivo JSON no disco, de forma que as informações não sejam perdidas ao
+fechar o programa.
+
+5. FUNCIONALIDADES PRINCIPAIS
+- Criar uma nova tarefa (título, descrição opcional, data de criação automática)
+- Listar todas as tarefas cadastradas, exibindo status (pendente/concluída)
+- Marcar uma tarefa específica como concluída
+- Excluir uma tarefa pelo identificador
+- Persistência automática dos dados em arquivo JSON ao encerrar ou alterar o estado
+- Tratamento de erros para entradas inválidas (ex.: tarefa inexistente)
+
+6. ESTRUTURA SUGERIDA DE MÓDULOS (sem código)
+- main.py: ponto de entrada da aplicação e loop de interação com o usuário
+- models.py: definição da estrutura/dados de uma tarefa
+- storage.py: leitura e gravação do arquivo JSON no sistema de arquivos
+- cli.py: interface de linha de comando, menus e validação de entrada do usuário
+
+7. CONHECIMENTOS QUE O DESENVOLVEDOR IRÁ PRATICAR
+- Manipulação de arquivos no sistema operacional com pathlib e json
+- Estrutura modular de um projeto Python
+- Tratamento de exceções e validação de entrada de dados
+- Testes unitários com pytest (recomendado)
+- Lógica básica de CRUD sem dependência de banco de dados externo
+
+8. RECURSOS TÉCNICOS SUGERIDOS
+- Python 3.11+
+- Módulo json da biblioteca padrão
+- Módulo pathlib da biblioteca padrão
+- pytest para testes automatizados
+
+9. POSSÍVEIS EVOLUÇÕES FUTURAS
+- Adicionar categorias e prioridades às tarefas
+- Exportar a lista de tarefas para CSV
+- Adicionar data de vencimento e filtro por tarefas vencidas
+
+================================================================================
+FIM DO DOCUMENTO - PROJETO 1
+================================================================================
